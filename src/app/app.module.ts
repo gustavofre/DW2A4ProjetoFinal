@@ -9,8 +9,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AvaliacaoComponent } from './avaliacao/avaliacao.component';
+<<<<<<< HEAD
 import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
 import { NavbarComponent } from './navbar/navbar.component';
+=======
+import { CriticaComponent } from './critica/critica.component';
+import { CriticaDDGAComponent } from './criticaDDGA/criticaDDGA.component';
+import { CriticaMadriComponent } from './criticaMadri/criticaMadri.component';
+import { CriticaMalComponent } from './criticaMal/criticaMal.component';
+
+import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
+>>>>>>> 8afef9d55b18251c95b9de9fae0714d46c3704a0
 
 
 @NgModule({
@@ -18,8 +27,16 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     HomeComponent,
     AvaliacaoComponent,
+<<<<<<< HEAD
     PreCadastroComponent,
     NavbarComponent
+=======
+    CriticaComponent,
+    CriticaDDGAComponent,
+    CriticaMadriComponent,
+    CriticaMalComponent,
+    PreCadastroComponent
+>>>>>>> 8afef9d55b18251c95b9de9fae0714d46c3704a0
   ],
   imports: [
     BrowserModule,

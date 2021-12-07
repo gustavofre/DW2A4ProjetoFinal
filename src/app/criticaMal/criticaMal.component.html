@@ -1,0 +1,40 @@
+<div class="container">
+  <div class=" row mt-2">
+    <div class="col-7 mt-4">
+      <div class="row">
+        <div class="col-6">
+          <label for="formGroupExampleInput">MALANDRO</label>
+          <input type="text" class="form-control" placeholder="Nome" [(ngModel)]="cadastro.artistaName">
+        </div>
+        <div class="col-6">
+          <label for="formGroupExampleInput2">Álbum</label>
+          <input type="text" class="form-control" placeholder="Sobrenome" [(ngModel)]="cadastro.albumName">
+        </div>
+      </div>
+      <div class="mb-3 mt-2">
+        <label for="validationTextarea">Critica</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" [(ngModel)]="cadastro.resenha" ></textarea>
+      </div>
+      <div class="mb-5">
+        <label for="formGroupExampleInput2">Nota</label>
+        <div class="row justify-content-between">
+        <input type="text" class="form-control col-2 ml-3" placeholder="0-100" [(ngModel)]="cadastro.nota" >
+          <button type="button" class="btn btn-primary mr-3" (click)="publicar()">Avaliar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div  *ngFor="let cadastro of preCadastro" class="row">
+    <div class="mt-2 col-7">
+      <div class="card mb-3">
+        <div class="card-header bg-transparent">{{cadastro.artistaName}}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{cadastro.albumName}}</h5>
+          <p class="card-text">{{cadastro.resenha}}</p>
+        </div>
+        <div class="card-footer bg-transparent">{{cadastro.nota}}</div>
+      </div>
+   </div>
+  </div>
+</div>
