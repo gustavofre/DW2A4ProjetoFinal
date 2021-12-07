@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AvaliacaoComponent } from './avaliacao/avaliacao.component';
 import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
     AppComponent,
     HomeComponent,
     AvaliacaoComponent,
-    PreCadastroComponent
+    PreCadastroComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -4,4 +4,5 @@ export class PreCadastro {
  public artistaName: string;
  public nota: number;
  public resenha: string ;
+ public foto: string;
 }
