@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row col-12 justify-content-center mt-2">
-    <div class="card border-0 col-10 mt-1">
+    <div class="card border-0 col-10 mt-1 fundo">
       <div class="card-body text-center">
         <h2 class="card-title ">AOTY - Album of the year</h2>
         <h6 class="card-subtitle mb-2 text-muted">Avalie os seus álbuns favoritos</h6>
@@ -11,7 +11,6 @@
   </div>
 
   <div class="row col-12 justify-content-center mb-5 mt-3">
-    <a class=" h3 nav-link" routerLink='/avaliacao'>Adicione um álbum</a>
     <a class=" h3 nav-link" routerLink='/avaliacao'>Avalie o seu álbum favorito</a>
 
   </div>
@@ -22,8 +21,9 @@
 
   <!-- NUMANICE -->
   <div class="row">
-    <div class="col-md-3">
-        <div class="card border-0 container-fluid" style="width: 18rem;">
+    <div class="card-deck">
+    <div class="col-3">
+        <div class="card border-0 container-fluid mr-2" style="width: 18rem;">
             <img class="card-img-top" [src]=numaniceImage>
             <div class="card-body">
                 <h5 class="card-title text-center">Numanice - Ao vivo</h5>
@@ -43,7 +43,7 @@
 
     <!-- MALANDRO 5 ESTRELAS -->
       <div class="col-md-3">
-          <div class="card border-0 container-fluid" style="width: 18rem;">
+          <div class="card border-0 mr-1 container-fluid " style="width: 18rem;">
               <img class="card-img-top" [src]=malandro5Estrelas>
               <div class="card-body">
                   <h5 class="card-title text-center">Malandro 5 estrelas</h5>
@@ -63,7 +63,7 @@
 
      <!-- DOLORES DALA -->
       <div class="col-md-3">
-          <div class="card border-0 container-fluid" style="width: 18rem;">
+          <div class="card border-0 mr-1 container-fluid" style="width: 18rem;">
               <img class="card-img-top" [src]=doloresDala>
               <div class="card-body">
                   <h5 class="card-title text-center">DDGA</h5>
@@ -100,5 +100,5 @@
             </div>
         </div>
     </div>
-
+  </div>
 </div>
