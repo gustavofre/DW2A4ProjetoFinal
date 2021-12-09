@@ -11,5 +11,4 @@ export const PRECADASTRO: PreCadastro[] = [
   { id: 8, albumName: 'Diretoria', artistaName:'Tasha & Tracie', nota: 83 , resenha:'', foto:'https://i.scdn.co/image/ab67616d0000b2731fc5e3c9e542cebd64472c90'},
   { id: 9, albumName: 'Lately I Feel EVERYTHING', artistaName:'Willow', nota: 83 , resenha:'', foto:'https://i.scdn.co/image/ab67616d0000b27302b0ac4db2fd46d936e748cd'},
   { id: 10, albumName: 'FÚRIA PT. 1', artistaName:'Urias', nota: 83 , resenha:'', foto:'https://i.scdn.co/image/ab67616d0000b273d8233f0602c650cfc6e6d79c'},
-
 ];

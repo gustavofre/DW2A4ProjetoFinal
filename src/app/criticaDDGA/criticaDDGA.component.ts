@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild  } from '@angular/core';
-import {PRECADASTRO} from '../mock-preCadastro';
+import {PRECADASTRO} from '../mock-preCadastroDDGA';
 import { PreCadastro } from '../model/preCadastro';
 
 @Component({
