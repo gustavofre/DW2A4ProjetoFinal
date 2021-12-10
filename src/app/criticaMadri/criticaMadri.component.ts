@@ -21,4 +21,10 @@ export class CriticaMadriComponent implements OnInit {
     this.preCadastro.push({...this.cadastro});
   }
 
+  homeImage: string = "assets/images/1.png";
+  numaniceImage: string ="assets/images/numanice.jpg";
+  malandro5Estrelas: string = "assets/images/malandro5Estrelas.jpg";
+  doloresDala: string = "assets/images/doloresDala.jpg";
+  elMadrileno: string = "assets/images/elMadrileno.jpg";
+
 }
