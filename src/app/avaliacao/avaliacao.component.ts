@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild  } from '@angular/core';
 import {PRECADASTRO} from '../mock-preCadastro';
-import { PreCadastro } from '../model/preCadastro';
+import { PreCadastro } from '../modu/PreCadastro';
 
 @Component({
   selector: 'app-avaliacao',

@@ -1,4 +1,4 @@
-import { PreCadastro } from './model/preCadastro';
+import { PreCadastro } from './modu/PreCadastro';
 
 export const PRECADASTRO: PreCadastro[] = [
   { id: 1, albumName: 'PISA MENOS EU TE IMPLOROOO', artistaName:'DDGA', nota: 90, resenha:'', foto: 'https://i.scdn.co/image/ab67616d0000b273c15722958c2e48c34eab7ca0'},

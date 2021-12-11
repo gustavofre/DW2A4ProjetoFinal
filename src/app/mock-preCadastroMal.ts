@@ -1,4 +1,4 @@
-import { PreCadastro } from './model/preCadastro';
+import { PreCadastro } from './modu/PreCadastro';
 
 export const PRECADASTRO: PreCadastro[] = [
   { id: 1, albumName: 'Esse é malandro mesmo!', artistaName:'Malandro 5 estrelas', nota: 89, resenha:'', foto: 'https://i.scdn.co/image/ab67616d0000b273c15722958c2e48c34eab7ca0'},
