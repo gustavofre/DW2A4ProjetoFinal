@@ -15,10 +15,16 @@ export class CriticaMadriComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    window.scroll(0, 0);
+  }
 
   publicar(){
     this.preCadastro.push({...this.cadastro});
+  }
+
+  limpar(){
+
   }
 
   homeImage: string = "assets/images/1.png";

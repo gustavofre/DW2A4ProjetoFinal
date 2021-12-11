@@ -15,7 +15,9 @@ export class AvaliacaoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    window.scroll(0, 0);
+  }
 
   publicar(){
     this.preCadastro.push({...this.cadastro});
